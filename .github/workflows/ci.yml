@@ -21,6 +21,7 @@ jobs:
       with:
         java-version: 1.8
         cache: maven
+        distribution: 'temurin'
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
